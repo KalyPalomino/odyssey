@@ -1,0 +1,75 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-24dd78ee.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-b5ba0f2b.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/contribuyentes.svelte",
+      "src/routes/plan-contable.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-af896b7c.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-b5ba0f2b.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-499bd14e.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-c6056cab.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-b5ba0f2b.js"
+    ]
+  },
+  "src/routes/contribuyentes.svelte": {
+    "file": "pages/contribuyentes.svelte-ebab425f.js",
+    "src": "src/routes/contribuyentes.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-b5ba0f2b.js",
+      "_Paginacion-e952670e.js"
+    ],
+    "css": [
+      "assets/pages/contribuyentes.svelte-776d9c83.css"
+    ]
+  },
+  "src/routes/plan-contable.svelte": {
+    "file": "pages/plan-contable.svelte-28d0e712.js",
+    "src": "src/routes/plan-contable.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-b5ba0f2b.js",
+      "_Paginacion-e952670e.js"
+    ],
+    "css": [
+      "assets/pages/plan-contable.svelte-461ae0a4.css"
+    ]
+  },
+  "_index-b5ba0f2b.js": {
+    "file": "chunks/index-b5ba0f2b.js"
+  },
+  "_Paginacion-e952670e.js": {
+    "file": "chunks/Paginacion-e952670e.js",
+    "imports": [
+      "_index-b5ba0f2b.js"
+    ],
+    "css": [
+      "assets/Paginacion-4704aba4.css"
+    ]
+  }
+}

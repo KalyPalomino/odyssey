@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+		<style>
+			:root{
+				--ventana-background:rgb(24,25,26) ; /*rgb(36,37,38);*/
+				--ventana-header-background: rgb(160, 82, 45);
+				--ventana-header-title-color: rgb(228,230,235);
+				--ventana-body-color: rgb(228,230,235);
+				
+				--ventana-frame-background: rgb(36,37,38);/* rgb(55,55,61);*/
+				--ventana-frame-color: rgb(124,220,254);
+				--ventana-frame-color-border-celular: rgb(93,93,93);
+
+				--ventana-search-value-background: rgb(183,183,184);
+				--ventana-search-value-hover-background: rgb(123,123,123);
+				--ventana-search-value-color-border:  rgb(50,50,50);
+
+				--ventana-button-background:rgb(51,51,51);
+				--ventana-button-color:rgb(228,230,235);
+
+				--ventana-button-color-border: rgb(77,77,77);
+
+				--ventana-button-height-celular: 35px;
+				--ventana-button-height-tablet: 30px;
+				--ventana-button-height-desktop: 28px;
+
+				--ventana-button-hover-background: rgb(77,77,77);
+
+				--tabla-background-celular: rgb(24,25,26) ; /*rgb(36,37,38);*/
+			    --tabla-tr-background-celular: rgb(36,37,38) ; /*rgb(42,45,46);*/
+				--tabla-tr-color-border-celular: rgb(93,93,93);
+
+				--tabla-td-field-height-celular:35px;
+				--tabla-td-field-height-tablet:30px;
+				--tabla-td-field-height-desktop:28px;
+
+				--tabla-td-field-background-celular: rgb(42,45,46);
+				--tabla-td-field-background-desktop: rgb(42,45,46);
+
+				--tabla-td-field-color-celular: rgb(55,200,115); /*rgb(106,138,53);*/
+
+				--tabla-td-color-border-celular: rgb(93,93,93);
+				--tabla-td-color-border-tablet: rgb(93,93,93);
+				--tabla-td-color-border-desktop: rgb(93,93,93);
+
+				--tabla-td-value-height-celular:35px;
+				--tabla-td-value-height-tablet:30px;
+				--tabla-td-value-height-desktop:28px;
+				
+				--tabla-td-value-background-celular:rgb(30,30,30);
+				--tabla-td-value-color-celular: rgb(194,204,204);
+
+				--tabla-buttons-background-celular:rgb(55,55,61);
+				--tabla-buttons-background-desktop:  rgb(30,30,30);
+
+				--tabla-button-background-celular: rgb(51,51,51);
+				--tabla-button-color-celular: rgb(200,197,200);
+				--tabla-button-color-border-celular: rgb(51,51,51); /*rgb(77,77,77);*/
+				--tabla-button-hover-background-celular: rgb(77,77,77);
+			}
+			*{
+				margin:0; 
+				padding:0;
+				box-sizing: border-box;
+				list-style: none;
+				text-decoration: none;
+				outline: none;   
+				
+				/*font-family: 'Roboto', sans-serif;*/
+				font-family:Arial, Helvetica, sans-serif;
+
+				font-size:16px;  
+			}  
+			
+
+		</style>
+	</head>
+	<body>
+		<div>%sveltekit.body%</div>
+	</body>
+</html>
